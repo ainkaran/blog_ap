@@ -1,11 +1,20 @@
+/*Copied from Cohort.html*/
+
+<!-- TODO: move to external css file -->
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
 /*nav bar styles*/
 
 #about {
   background-color: blue;
 }
-#contact {
+
+/*#contact {
   background-color: red;
-}
+}*/
+
 .section {
   margin-top: 50px;
   padding-top: 25px;
@@ -19,6 +28,7 @@ Social media icons
   padding: 20px;
   font-size: 30px;
   width: 50px;
+  /*height: 10px;*/
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -26,6 +36,26 @@ Social media icons
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.fa- {
+  background: #FFFFFF;
+  color: white;
+}
+
+.fa-bookmark {
+  background: #5c8b4b;
+  color: white;
+}
+
+.fa-heart {
+  background: #5c8b4b;
+  color: white;
+}
+
+.fa-medium {
+  background: #5c8b4b;
+  color: white;
 }
 
 .fa-envelope-square {
